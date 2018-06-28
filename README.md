@@ -2,7 +2,7 @@ Fresh project to start with NodeJS (backend), ReactJS (frontend) and Typescript 
 ==========================
 
 
-*Built with API Platform and Symfony*
+*Sweet Javascript*
 
 ![Javascript is sweet](https://cdn-images-1.medium.com/max/1600/1*-NOQtyJAGQ1RNC3iVt_thA.png)
 
