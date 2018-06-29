@@ -11,12 +11,12 @@ class App extends React.Component {
 
     public componentDidMount() {
         this.callApi()
-        .then(res => this.setState({ response: res.express }))
+        .then(res => this.setState({ response: res.content }))
         .catch(err => console.log(err));
     }
 
     public callApi = async () => {
-        const response = await fetch("/api/hello");
+        const response = await fetch("/hello");
         const body = await response.json();
 
         if (response.status !== 200) throw Error(body.message);
@@ -33,7 +33,7 @@ class App extends React.Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
+          {this.state.response}
         </p>
       </div>
     );

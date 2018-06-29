@@ -8,7 +8,7 @@
         "react-scripts-ts": "2.16.0"
     },
     "scripts": {
-        "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+        "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
         "client": "react-scripts-ts start",
         "server": "cd server && nodemon app.js"
     },

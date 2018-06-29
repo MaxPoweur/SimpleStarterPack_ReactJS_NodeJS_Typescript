@@ -32,8 +32,8 @@ Getting started
 ```
 git clone https://github.com/MaxPoweur/SimpleStarterPack_ReactJS_NodeJS_Typescript.git myNewProject
 cd myNewProject
-npm install
-npm run dev
+yarn install
+yarn dev
 ```
 
 
